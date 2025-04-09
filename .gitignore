@@ -28,7 +28,6 @@ venv/
 ENV/
 
 # Media files
-videos/
 *.mp4
 *.avi
 *.mov
@@ -59,5 +58,17 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific
-data/
 *.log
+
+# Data files (but keep the directory structure with .gitkeep)
+data/videos/*
+!data/videos/.gitkeep
+data/audio/*
+!data/audio/.gitkeep
+data/transcripts/*
+!data/transcripts/.gitkeep
+data/screenshots/*
+!data/screenshots/.gitkeep
+data/analyses/*
+!data/analyses/.gitkeep
+data/metadata.json
