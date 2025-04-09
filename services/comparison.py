@@ -1,0 +1,1 @@
+# For comparing multiple video submissions

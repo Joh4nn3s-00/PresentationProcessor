@@ -1,0 +1,1 @@
+# Extracts screenshots at key moments
